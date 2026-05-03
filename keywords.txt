@@ -1,0 +1,13 @@
+# Keywords for STM32Ethernet library
+# Syntax: KEYWORD_NAME    KEYWORD_TYPE
+
+# Functions
+wizchip_init        KEYWORD2
+wizchip_setnetinfo  KEYWORD2
+EthernetServer_begin        KEYWORD2
+EthernetServer_available    KEYWORD2
+EthernetServer_accept       KEYWORD2
+EthernetClient_read         KEYWORD2
+EthernetClient_write        KEYWORD2
+socket              KEYWORD2
+listen              KEYWORD2
