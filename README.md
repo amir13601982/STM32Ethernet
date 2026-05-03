@@ -46,14 +46,6 @@ This is a focused, production-grade library for industrial embedded systems. It 
 
 ## Installation
 
-### Via Arduino IDE (recommended)
-
-1. Download or clone this repository as a ZIP file
-2. In Arduino IDE: **Sketch → Include Library → Add .ZIP Library**
-3. Select the downloaded ZIP
-4. Restart Arduino IDE
-5. The library appears under **File → Examples → STM32Ethernet**
-
 ### Manual Installation
 
 Copy the `STM32Ethernet/` folder to your Arduino libraries directory:
@@ -157,7 +149,7 @@ int32_t recv(uint8_t sn, uint8_t* buf, uint16_t len);
 
 ## Examples
 
-### TCP Server (`08_modbus_server`)
+### TCP Server (`03_modbus_server`)
 
 Modbus TCP slave serving 5 holding registers on port 1502.
 Test with **Modbus Poll**: TCP connection, IP 192.168.1.100, port 1502, FC03.
@@ -172,7 +164,7 @@ FC=0x3 addr=0 count=5
 Sent 5 regs OK
 ```
 
-### Modbus TCP Client (`06_modbus_client`)
+### Modbus TCP Client (`02_modbus_client`)
 
 Persistent connection Modbus TCP master. Connects once, keeps connection open,
 only reconnects if the link drops. Test with **Modbus Slave** simulator.
