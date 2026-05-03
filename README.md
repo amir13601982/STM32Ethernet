@@ -273,7 +273,7 @@ MIT License — see `LICENSE` file.
 ## Author
 
 **Amir Shahbazi**
-Senior Control Engineer — Perth, Western Australia
+Senior Control Engineer
 
 Built from scratch as part of a bare-metal STM32F446 Arduino core development project,
 including custom SPI/DMA drivers, ADC DMA scanning, CAN bus, and Modbus TCP gateway
