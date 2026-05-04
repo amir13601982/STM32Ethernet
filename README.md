@@ -124,7 +124,7 @@ Restart Arduino IDE after copying.
 ```cpp
 #include <Arduino.h>
 #include <SPI.h>
-#include <STM32Ethernet.h>
+#include <W5500Ethernet.h>
 
 static uint8_t mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0x44, 0x6E };
 static uint8_t ip[]  = { 192, 168, 1, 100 };
@@ -251,7 +251,7 @@ Sent 5 regs OK
 
 ```
 W5500Ethernet/
-├── STM32Ethernet.h      ← single include for your sketch
+├── W5500Ethernet.h      ← single include for your sketch
 ├── w5500.h / .cpp       ← SPI framing, BSB-aware register R/W
 ├── wizchip_conf.h / .cpp← init, netinfo, PHY, buffer sizes
 ├── socket.h / .cpp      ← W5500 socket state machine (TCP/UDP)
