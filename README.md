@@ -250,7 +250,7 @@ Sent 5 regs OK
 ## Architecture
 
 ```
-STM32Ethernet/
+W5500Ethernet/
 ├── STM32Ethernet.h      ← single include for your sketch
 ├── w5500.h / .cpp       ← SPI framing, BSB-aware register R/W
 ├── wizchip_conf.h / .cpp← init, netinfo, PHY, buffer sizes
