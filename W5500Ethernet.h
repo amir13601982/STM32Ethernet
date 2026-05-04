@@ -1,4 +1,4 @@
-// STM32Ethernet.h
+// W5500Ethernet.h
 #pragma once
 
 #include <Arduino.h>
