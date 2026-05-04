@@ -35,7 +35,7 @@ In practice, none of these libraries compile and run out of the box on a Nucleo-
 - Zero dynamic memory allocation — no `new`, no `malloc`, no heap
 - Built-in Modbus TCP slave and master — no additional libraries needed
 - Tested end-to-end on real hardware with Modbus Poll and Modbus Slave simulators
-- Single file include: `#include <STM32Ethernet.h>`
+- Single file include: `#include <W5500Ethernet.h>`
 
 ---
 
@@ -107,7 +107,7 @@ A thin C++ wrapper implementing `EthernetClient` and `EthernetServer` as Arduino
 
 ### Manual Installation
 
-Copy the `STM32Ethernet/` folder to your Arduino libraries directory:
+Copy the `W5500Ethernet/` folder to your Arduino libraries directory:
 
 | OS      | Path |
 |---------|------|
