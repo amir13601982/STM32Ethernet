@@ -22,7 +22,7 @@
 
 #include <Arduino.h>
 #include <SPI.h>
-#include <STM32Ethernet.h>
+#include <W5500Ethernet.h>
 
 // ---- Network config ----
 static uint8_t mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0x44, 0x6E };
