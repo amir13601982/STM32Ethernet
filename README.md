@@ -218,10 +218,10 @@ int32_t recv(uint8_t sn, uint8_t* buf, uint16_t len);
 
 Three examples are included, all tested on STM32F446RE Nucleo-64 with WIZ550io:
 
-### 04_ethernet_netinfo
+### 01_ethernet_netinfo
 Basic smoke test. Initialises the W5500, assigns static IP, reads back MAC/IP/GW/subnet, prints link status every 2 seconds.
 
-### 06_modbus_client
+### 02_modbus_client
 Modbus TCP master. Opens a persistent TCP connection to a Modbus slave at 192.168.1.10:502 and polls 5 holding registers every 2 seconds using FC03. Auto-reconnects if the connection drops. Test with **Modbus Slave** simulator.
 
 ```
@@ -232,7 +232,7 @@ Connected to server
 reg1 = 1234, reg2 = -567, reg3 = 8900, reg4 = -42, reg5 = 32100
 ```
 
-### 08_modbus_server
+### 03_modbus_server
 Modbus TCP slave. Serves 5 holding registers on port 1502. Handles FC03 read requests, returns correct MBAP exception responses for invalid function codes or address ranges. Test with **Modbus Poll**.
 
 ```
