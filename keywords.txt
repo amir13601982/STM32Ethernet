@@ -1,4 +1,4 @@
-# Keywords for STM32Ethernet library
+# Keywords for W5500Ethernet library
 # Syntax: KEYWORD_NAME    KEYWORD_TYPE
 
 # Functions
