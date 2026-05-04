@@ -1,4 +1,4 @@
-# STM32Ethernet
+# W5500Ethernet
 
 A lightweight, production-tested W5500 Ethernet library for STM32 microcontrollers, compatible with both custom bare-metal cores and the official STM32duino Arduino core.
 
